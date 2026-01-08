@@ -1,5 +1,5 @@
 
-def library_details(id, title, name, year):
+def library_details(id, title, aname, pyear):
     result = (
         f"Book Id:{id}\n"
         f"Book title:{title}\n"
