@@ -9,5 +9,8 @@ def library_details(id, title, name, year):
     return result
 
 if __name__ == "__main__":
-    
+    id =101
+    title ="The Great Gatsby"
+    name ="F. Scott Fitzgerald"
+    year =1925
     print(library_details(id,title,name,year))
