@@ -13,4 +13,4 @@ def test_library_details():
         "Author name:{name}\n"
         "Published year:{year}" 
     )
-    assert t(library_details(101,"devops","alice",1925) == expected_output
+    assert (library_details(101,"devops","alice",1925)) == expected_output
