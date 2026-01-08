@@ -3,8 +3,8 @@ from library import library_details
 
 def test_library_details():
     id =101
-    title ="The Great Gatsby"
-    name ="F. Scott Fitzgerald"
+    title ="devops"
+    name ="alice"
     year =1925
     
     expected_output = (
@@ -13,4 +13,4 @@ def test_library_details():
         "Author name:{name}\n"
         "Published year:{year}" 
     )
-    assert library_details(id,title,name,year) == expected_output
+    assert t(library_details(101,"devops","alice",1925) == expected_output
