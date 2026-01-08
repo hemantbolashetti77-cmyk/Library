@@ -3,7 +3,7 @@ def library_details(id, title, name, year):
     result = (
         f"Book Id:{id}\n"
         f"Book title:{title}\n"
-        f"Author name:{name}\n"
+        f"Authorname:{name}\n"
         f"Published year:{year}\n"
     )
     return result
