@@ -9,9 +9,9 @@ def library_details(id, title, name, year):
 
 if __name__ == "__main__":
     
-    id = input("Enter the Book ID: ")
-    title = input("Enter the Book Title: ")
-    name = input("Enter the Author Name: ")
-    year = input("Enter the Published Year: ")
+    id = (input("Enter the Book ID: "))
+    title = (input("Enter the Book Title: "))
+    name = (input("Enter the Author Name: "))
+    year = (input("Enter the Published Year: "))
     
     print(library_details(id,title,name,year))
