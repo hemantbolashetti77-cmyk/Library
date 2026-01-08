@@ -11,6 +11,6 @@ def test_library_details():
         "Book Id:{id}\n"
         "Book title:{title}\n"
         "Author name:{name}\n"
-        "Published year:{year}" 
+        "Publishedyear:{year}" 
     )
     assert (library_details(101,"devops","alice",1925)) == expected_output
