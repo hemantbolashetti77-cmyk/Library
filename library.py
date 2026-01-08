@@ -8,7 +8,6 @@ def library_details(id, title, name, year):
     return result
 
 if __name__ == "__main__":
-    
     id = (input("Enter the Book ID: "))
     title = (input("Enter the Book Title: "))
     name = (input("Enter the Author Name: "))
