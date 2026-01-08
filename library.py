@@ -3,7 +3,7 @@ def library_details(id,title,name,year):
         f"Book Id:{id}\n"
         f"Book title:{title}\n"
         f"Author name:{name}\n"
-        f"Book Id:{year}\n"
+        f"Published year:{year}\n"
     )
     return result
 if __name__ == "__main__":
